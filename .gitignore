@@ -1,0 +1,33 @@
+################################################################################
+# This .gitignore file was automatically.
+################################################################################
+
+.DS_Store
+node_modules
+dist
+package-lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode
+
+# Cypress screenshots and videos
+#cypress/screenshots/*
+#!cypress/screenshots/README.md
+#cypress/videos/*
+#!cypress/videos/README.md
+cypress/screenshots
+cypress/videos
+cypress/logs
+cypress/fixtures/profile.json
+cypress/fixtures/users.json
+node_modules
